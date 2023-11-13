@@ -1,0 +1,1242 @@
+div[data-toggle="tooltip"] {
+  margin-left: 5px;
+}
+
+.green_circle_number {
+  background-color: #00c851;
+  border-radius: 25px;
+  padding: 0 0.35rem;
+  user-select: none;
+  font-size: 0.75rem;
+  color: #ffffff;
+  margin-left: 0.4rem;
+}
+
+.tab-card a.nav-link {
+  display: unset !important;
+}
+
+.action_image {
+  /* vertical-align: middle; */
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.action_image_text {
+  font-weight: bold;
+  text-align: center;
+}
+.action_image_button button {
+  display: block;
+  margin: 0 auto;
+}
+
+a.dislikeComment:hover {
+  color: #e45337 !important;
+}
+.welcomeMessage {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+.action_image {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.card.cstm-card .cardlower {
+  border-bottom: 0px;
+}
+
+/* Progress card */
+
+.my-progress-card ul {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 400;
+  flex-grow: 0.25;
+}
+
+.my-progress-card .chartRow ul li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.my-progress-card ul li:last-of-type {
+  margin-bottom: 0;
+}
+
+.my-progress-card li:nth-of-type(1)::marker {
+  position: relative;
+}
+
+.my-progress-card > p {
+  width: 100%;
+}
+
+.card.my-progress-card ul.nav {
+  border: 1px solid #d2d4da;
+}
+
+.card.my-progress-card ul.nav li.nav-item {
+  border-bottom: 2px solid #d2d4da;
+  border-right: 1px solid #d2d4da;
+  transition: border-bottom 0.2s ease;
+}
+
+.card.my-progress-card ul.nav li.nav-item a {
+  color: #d2d4da;
+  font-size: 14px;
+  padding: 8px !important;
+  width: 100%;
+}
+
+.card.my-progress-card ul.nav li.nav-item a.active {
+  color: #27ae60;
+}
+
+.card.my-progress-card ul.nav li.nav-item:has(a.active) {
+  border-bottom: 2px solid #27ae60;
+}
+
+.my-progress-card .chartRow .challeng-chart,
+.visited-chart {
+  position: relative;
+}
+
+#circleValue,
+.my-progress-card .chartRow .challeng-chart > p {
+  font-size: 20px;
+  font-weight: 400;
+  height: fit-content;
+  inset: 0;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+
+.my-progress-card .chartRow .challeng-chart > p > span {
+  color: #404040;
+  display: block;
+  line-height: 1;
+}
+
+.my-progress-card .chartRow .challeng-chart > p > span > span {
+  font-family: "Poppins", inherit;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#challenge-stats-tab .challeng-chart > p > span > span,
+#challenge-stats-tab .challeng-chart > p {
+  color: #27ae60;
+}
+
+#lab-stats-tab .challeng-chart > p > span > span,
+#lab-stats-tab .challeng-chart > p {
+  color: #498cce;
+}
+
+#resource-stats-tab .challeng-chart > p > span > span,
+#resource-stats-tab .challeng-chart > p {
+  color: #9e31e1;
+}
+
+#challenge-stats-tab .chartRow ul li:nth-child(1) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/challenge-leaf-1.svg);
+}
+
+#challenge-stats-tab .chartRow ul li:nth-child(2) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/challenge-leaf-2.svg);
+}
+
+#challenge-stats-tab .chartRow ul li:nth-child(3) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/challenge-leaf-3.svg);
+}
+
+#challenge-stats-tab .chartRow ul li:nth-child(4) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/challenge-leaf-4.svg);
+}
+
+#lab-stats-tab .chartRow ul li:nth-child(1) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/lab-leaf-1.svg);
+}
+
+#lab-stats-tab .chartRow ul li:nth-child(2) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/lab-leaf-2.svg);
+}
+
+#lab-stats-tab .chartRow ul li:nth-child(3) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/lab-leaf-3.svg);
+}
+
+#resource-stats-tab .chartRow ul li:nth-child(1) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/resource-leaf-1.svg);
+}
+
+#resource-stats-tab .chartRow ul li:nth-child(2) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/resource-leaf-2.svg);
+}
+
+#resource-stats-tab .chartRow ul li:nth-child(3) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/resource-leaf-3.svg);
+}
+
+/* Continue card */
+
+#dataAvail {
+  display: none;
+}
+
+#dataNotAvail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#dataNotAvail .placeholder-image {
+  transform: translateX(16px);
+}
+
+.challenge-asset #circleValue {
+  color: #13a859;
+}
+
+.project-asset #circleValue {
+  color: #ff9d00;
+}
+
+.lab-asset #circleValue {
+  color: #13a859;
+}
+
+.module-asset #circleValue,
+.collection-asset #circleValue,
+.group-asset #circleValue {
+  color: #9e31e1;
+}
+
+#circleValue {
+  width: 8ch;
+  line-height: 1;
+}
+
+.continue-card .chartRow {
+  flex-direction: row;
+  gap: 45px;
+  margin: 0;
+}
+
+.continue-card .chartRow > div:last-child {
+  flex-grow: 1;
+  width: 200px;
+}
+
+.continue-card .chartRow h3 {
+  color: #101223;
+  font-size: 26px;
+  font-weight: 700;
+  overflow: hidden;
+  overflow-wrap: normal;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+}
+
+#last-visited-rdr-btn {
+  margin-left: -8px;
+}
+
+#last-visited-message {
+  margin: 0 0 16px;
+  height: fit-content;
+  width: 100%;
+}
+
+#last-visited-desc {
+  max-height: 3lh;
+  overflow: hidden;
+}
+
+/*Achievement card*/
+
+.card.cstm-card.achievement-card h2 {
+  align-items: center;
+}
+
+.card.cstm-card.achievement-card h2::before {
+  background-image: url("https://d3f06rtlkr354b.cloudfront.net/public/front/img/Achievements.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 20px;
+  padding: 0 0 0.25em 0;
+  width: 20px;
+}
+
+.achievement-inner,
+.achievement-nux {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.achievement-inner p,
+.achievement-nux p {
+  width: 100%;
+}
+
+.achievement-nux img {
+  margin: 0;
+  max-height: 176px;
+  max-width: 176px;
+  flex-grow: 1;
+  transform: translateX(-12px);
+}
+
+.achievement-inner img {
+  height: 200px;
+  max-height: 100%;
+  max-width: 100%;
+  outline: 1px solid #999;
+  border-radius: 100%;
+  outline-offset: 4px;
+  width: 200px;
+}
+
+.achievement-inner {
+  gap: 16px;
+  justify-content: center;
+}
+
+.achievement-inner .name-award {
+  width: 100%;
+}
+
+.achievement-inner .name-award div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 100px;
+  justify-content: center;
+}
+
+.achievement-inner h3 {
+  color: #13a859;
+  font-family: "SFUIDISPLAYBOLD", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+
+.achiev-date {
+  margin: 24px 0 0;
+}
+
+.achiev-date button {
+  margin: 0;
+  width: 140px;
+}
+
+.achiev-date a[data-toggle="modal"] button {
+  background: #498cce;
+}
+
+.achiev-date a[data-toggle="modal"] button i {
+  margin-right: 0.25ch;
+}
+
+.achievShare-modal .addProfile a .proText,
+.achievShare-modal .shareTo .social li span {
+  font-family: "SFUIDisplayRegular";
+}
+
+.deadlines-chart.main-tab-scroll-part .inner-scroll > a div::before {
+  background-image: url("https://preprlabs.org/assets/images/dashboard/calendar-normal.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 32px;
+  margin-right: 8px;
+  width: 32px;
+}
+
+.deadlines-chart.main-tab-scroll-part .inner-scroll .deadline-alert p {
+  color: #db3353;
+}
+
+.deadlines-chart.main-tab-scroll-part .inner-scroll .deadline-alert::before {
+  background-image: url("https://preprlabs.org/assets/images/dashboard/calendar-alert.svg");
+}
+
+.deadlines-chart.main-tab-scroll-part .inner-scroll .deadline-warn p {
+  color: #ff9d00;
+}
+
+.deadlines-chart.main-tab-scroll-part .inner-scroll .deadline-warn::before {
+  background-image: url("https://preprlabs.org/assets/images/dashboard/calendar-warn.svg");
+}
+
+#messages {
+  top: 50px;
+  z-index: 10000;
+}
+.notification-img {
+  max-width: 6rem;
+  max-height: 6rem;
+}
+.notification-container {
+  background: #eaf4ef;
+  border: 1px solid #1bc459;
+  color: #000000;
+  border-radius: 10px;
+}
+#all-notifications-container {
+  right: 0.4rem;
+  min-width: 400px;
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  #messages {
+    top: 100px;
+  }
+  #all-notifications-container {
+    width: 100%;
+    right: 0;
+  }
+}
+
+.ui-menu {
+  top: 364px;
+  left: 882px;
+  max-height: 550px;
+  overflow: auto;
+  width: 453.359px;
+}
+.ui-autocomplete-category {
+  font-weight: bold;
+  padding: 0.2em 0.4em;
+  margin: 0.8em 0 0.2em;
+  line-height: 1.5;
+}
+.ui-autocomplete-loading {
+  background: white
+    url("https://prepr-pre-production.s3.ca-central-1.amazonaws.com/uploads/users/kO0DO2JtCMWxRvO2nuIqlA5YWcp57uZHMHFuttn9.gif")
+    right center no-repeat;
+}
+
+.signInButton {
+  margin-left: auto;
+}
+
+.signInButton button {
+  height: 43px;
+  top: 0px;
+  background: #498cce;
+  border-radius: 8px;
+  font-family: "SFUIDisplayMedium";
+}
+.profileSVG {
+  width: 29px;
+  height: 30px;
+}
+
+.navbar-nav {
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navbar-nav:first-of-type {
+  flex-grow: 0;
+}
+
+.top-menu-options {
+  color: #8b8b8b;
+  display: flex;
+  font-family: "SFUIDISPLAYREGULAR";
+  flex-grow: 1;
+  font-weight: 700;
+  letter-spacing: 0.85px;
+  height: 60px;
+  padding: 0 0 0 56px;
+  width: 100%;
+}
+
+.top-menu-options li a span {
+  transition: color 0.075s ease;
+}
+
+.top-menu-options li:hover a span {
+  color: #1eab5e;
+}
+
+span.top-menu-options .nav-item.dropdown ul.dropdown-menu {
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-nw-nav-header.navbar
+  .navbar-nav.right_nav.top-nw-nav
+  span.top-menu-options
+  .nav-item.dropdown
+  ul.dropdown-menu
+  li
+  a {
+  padding: 20px 20px;
+}
+
+.top-nw-nav-header.navbar
+  .navbar-nav.right_nav.top-nw-nav
+  span.top-menu-options
+  .nav-item.dropdown
+  ul.dropdown-menu
+  li:first-of-type
+  a {
+  padding-top: 30px;
+}
+
+.top-nw-nav-header.navbar
+  .navbar-nav.right_nav.top-nw-nav
+  span.top-menu-options
+  .nav-item.dropdown
+  ul.dropdown-menu
+  li:last-of-type
+  a {
+  padding-bottom: 30px;
+}
+
+.dropdown-item img {
+  height: 24px;
+  object-fit: contain;
+  padding: 0 10px 0 0;
+  width: 32px;
+}
+
+ul.navbar-nav span.top-menu-options li.nav-item.dropdown.create-menu-option {
+  align-items: center;
+}
+
+ul.navbar-nav
+  span.top-menu-options
+  li.nav-item.dropdown.create-menu-option
+  a.nav-link.dropdown-toggle.create-option {
+  background: #13a859;
+  border-radius: 5px;
+  color: white;
+  height: 36px;
+  justify-content: center;
+  padding: 0;
+  transition: 0.075s ease;
+  width: 100px;
+}
+
+ul.navbar-nav
+  span.top-menu-options
+  li.nav-item.dropdown.create-menu-option
+  a.nav-link.dropdown-toggle.create-option:hover {
+  background: white;
+  color: #13a859;
+  outline: 2px solid #13a859;
+  outline-offset: -2px;
+}
+
+header .right_nav .notification .notifi_menu::before {
+  display: none;
+}
+
+header .right_nav .notification .notifi_menu {
+  border: none;
+  border-radius: 6px;
+}
+
+.top-nw-nav-header.navbar
+  .navbar-nav.right_nav.top-nw-nav
+  .nav-item.dropdown
+  .dropdown-menu
+  .user-settings-dropdown
+  li:first-of-type {
+  border-radius: 6px 6px 0 0;
+  background-color: #13a859;
+  color: white;
+  display: flex;
+  padding: 15px 18px;
+}
+
+header .right_nav .notification .notifi_menu ul li:first-of-type > a {
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: fit-content;
+}
+
+.user-settings-dropdown li:first-of-type > div {
+  flex-grow: 1;
+}
+
+header
+  .navbar-nav.right_nav
+  .notification
+  .notifi_menu
+  ul.user-settings-dropdown
+  li.user-settings-dropdown-info
+  > a {
+  padding: 0 8px 0 0;
+}
+
+.dropdown-plan {
+  background: white;
+  border-radius: 4px;
+  color: #13a859;
+  font-family: "SFUIDisplaySemiBold";
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 8px;
+  padding: 1px 6px;
+  width: fit-content;
+  text-transform: uppercase;
+}
+
+header
+  .right_nav
+  .notification
+  .notifi_menu
+  ul.user-settings-dropdown
+  li.user-settings-dropdown-info
+  a.dropdown-username {
+  border-bottom: 2px solid transparent;
+  color: white !important;
+  font-family: "SFUIDisplaySemiBold";
+  font-size: 18px;
+  padding: 0;
+  transition: border 0.125s ease;
+  width: fit-content;
+}
+
+header .right_nav .notification .notifi_menu ul.user-settings-dropdown li a {
+  transition: background 0.125s ease;
+}
+
+header .right_nav .notification .notifi_menu ul.user-settings-dropdown li:hover,
+header
+  .right_nav
+  .notification
+  .notifi_menu
+  ul.user-settings-dropdown
+  li:hover
+  a {
+  background: #f3f4f8;
+}
+
+header
+  .right_nav
+  .notification
+  .notifi_menu
+  ul.user-settings-dropdown
+  li:first-of-type:hover,
+header
+  .right_nav
+  .notification
+  .notifi_menu
+  ul.user-settings-dropdown
+  li:first-of-type:hover
+  a {
+  background: inherit;
+}
+
+header
+  .right_nav
+  .notification
+  .notifi_menu
+  ul.user-settings-dropdown
+  li
+  a.dropdown-username:hover {
+  background: inherit;
+  border-bottom: 2px solid white;
+}
+
+header
+  .navbar-nav.right_nav
+  .notification
+  .notifi_menu
+  ul.user-settings-dropdown
+  li
+  a {
+  padding: 8px 24px;
+}
+
+.top-menu-options li.create-menu-option:hover a.create-option span {
+  color: inherit;
+}
+
+.navbar .dropdown-menu ul.user-settings-dropdown a {
+  color: #13a859 !important;
+}
+
+header
+  .navbar-nav.right_nav
+  .notification
+  .notifi_menu
+  ul.user-settings-dropdown
+  li:last-of-type
+  a {
+  border-radius: 0 0 6px 6px;
+  color: inherit !important;
+  padding-bottom: 12px;
+}
+
+header
+  .navbar-nav.right_nav
+  .notification
+  .notifi_menu
+  ul.user-settings-dropdown
+  li {
+  border-bottom: none;
+}
+
+header
+  .navbar-nav.right_nav
+  .notification
+  .notifi_menu
+  ul.user-settings-dropdown
+  li:last-of-type {
+  border-top: 1px solid #d6d6d6;
+}
+
+.top-nw-nav-header.navbar
+  .navbar-nav.right_nav.top-nw-nav
+  .nav-item.dropdown
+  .dropdown-menu.firstmenu
+  li
+  a.dropdown-item {
+  color: #404252 !important;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+input#main_search {
+  width: 256px !important;
+}
+
+ul.user-settings-dropdown {
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgb(0 0 0 / 15%);
+}
+
+.app-dropdown li {
+  justify-content: center;
+}
+
+.app-dropdown li a {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  text-align: center;
+  transition: background 0.125s ease;
+  width: 100%;
+}
+
+.app-dropdown li a:hover {
+  background: #f3f4f8;
+}
+
+.app-dropdown li a img {
+  width: 40px;
+  height: 40px;
+}
+
+ul.app-dropdown {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 395px;
+}
+
+.dropdown-rank {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+.dropdown-rank::before {
+  background: url(/assets/images/header/achievement-glyph.svg);
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.header-profile-image {
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px rgb(0 0 0 / 25%);
+  height: 40px;
+  object-fit: contain;
+  width: 40px;
+}
+
+header .nav-item.bar-menu {
+  display: none;
+}
+
+header .nav-item.bar-menu::marker {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .right_nav {
+    display: none !important;
+  }
+
+  header .nav-item.bar-menu {
+    background: url("https://preprlabs.org/assets/images/header/trigram.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 20px;
+    width: 25px;
+  }
+
+  header .nav-item.bar-menu.sidebar-toggle-active {
+    background-image: url("https://preprlabs.org/assets/images/header/cross.svg");
+  }
+
+  header.navbar.bg-white.fixed-top.navbar-expand-lg.top-nw-nav-header {
+    padding: 10px 12px;
+  }
+}
+
+.side-nav {
+  box-shadow: none;
+  font-family: "SFUIDisplayRegular", sans-serif;
+  margin: 0;
+  transform: none;
+  top: 55px;
+  left: -100%;
+}
+
+.side-nav .sidebar-header {
+  background-color: #13a859;
+  color: white;
+  padding: 10px 20px;
+}
+
+.sidebar-header .sidebar-user-details {
+  display: flex;
+  gap: 16px;
+  padding-top: 20px;
+}
+
+.side-nav .dropdown-plan {
+  margin: 0;
+}
+
+.side-nav-fixed {
+  left: 0;
+}
+
+.side-nav,
+.side-nav-fixed {
+  width: 100%;
+}
+
+.side-nav .dropdown-username {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sidebar-header img {
+  height: 56px;
+  width: 56px;
+  object-fit: contain;
+}
+
+.sidebar-header a {
+  color: white;
+}
+
+.sidebar-header a.back-button {
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+}
+
+.sidebar-header a.back-button::before {
+  background-image: url("https://preprlabs.org/assets/images/header/chevron-back.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+}
+
+.side-nav ul {
+  font-size: 20px;
+  padding: 0;
+}
+
+.side-nav li a {
+  align-items: center;
+  color: #101223;
+  display: flex;
+  gap: 20px;
+  padding: 13.5px 27px;
+  transition: 0.075s;
+}
+
+.side-nav li a:hover,
+.side-nav li a:active {
+  background: #f3f4f8;
+}
+
+.side-nav li.nav_icon a::before {
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.side-nav li.nav_icon.nav_explore a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/explore-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_dashboard a::before,
+.side-nav li.nav_icon.nav_user_dashboard a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/dashboard-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_labs a::before,
+.side-nav li.nav_icon.nav_lab_dashboard a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/lab-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_challenges a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/challenge-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_projects a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/project-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_organizations a::before,
+.side-nav li.nav_icon.nav_organization_dashboard a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/organization-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_resources a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/resource-module-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_resource_collections a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/resource-collection-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_resource_groups a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/resource-group-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_skills a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/skill-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_achievements a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/achievement-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_assessments a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/assessment-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_leaderboard a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/leaderboard-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_teams a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/team-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_newsfeed a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/newsfeed-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_help a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/help-icon-green.svg");
+}
+
+.side-nav li.nav_icon.nav_logout a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/logout-icon-dark.svg");
+}
+
+.side-nav li.nav_icon.nav_profile a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/profile-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_upgrade_plan a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/plan-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_subscriptions a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/subscription-icon.svg");
+}
+
+.side-nav li.nav_icon.nav_inbox a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/inbox-icon-blue.svg");
+}
+
+.side-nav li.nav_icon.nav_notifications a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/notification-icon-yellow.svg");
+}
+
+.side-nav li.nav_icon.nav_settings a::before {
+  background-image: url("https://preprlabs.org/assets/images/header/settings-icon.svg");
+}
+
+.side-nav li.nav_chevron a::after {
+  background-image: url("https://preprlabs.org/assets/images/header/chevron.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
+
+.extra-bar h3 {
+  color: #101223;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 13.5px 26px 6px;
+}
+
+.extra-bar p {
+  color: #101223;
+  font-size: 14px;
+  padding: 0 26px;
+}
+
+.custom-scrollbar-outer {
+  position: relative;
+}
+
+.nav_chevron a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-search .input-group-prepend {
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .side-nav {
+    display: none !important;
+  }
+}
+
+#ui-id-2 {
+  font-family: "SFUIDisplayRegular", sans-serif;
+  max-width: 90%;
+  padding: 4px 8px;
+  position: fixed !important;
+  width: 90% !important;
+  z-index: 90001;
+}
+
+#ui-id-2 li {
+  padding: 4px 0;
+  font-size: 16px;
+}
+
+.sidebar-search .input-group-prepend {
+  width: 100%;
+}
+
+.sidebar-search .input-group-prepend input {
+  background-image: url("http://127.0.0.1:8000/assets/images/header/search.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 10px center;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 40px;
+  width: 100%;
+}
+
+.custom-scrollbar-inner {
+  padding: 0 0 32px;
+}
+
+.lab_mdll input[type="radio"]:checked + label > img {
+  box-shadow: 0px 0 2px 2px #13b15c !important;
+  -webkit-box-shadow: 0px 0 2px 2px #13b15c !important;
+}
+
+.footerHeight {
+  height: 51px !important;
+}
+
+.centerModal {
+  width: 600px !important;
+  top: 40px !important;
+  left: calc(50% - 300px) !important;
+  bottom: 40px !important;
+  text-align: center !important;
+}
+
+.modalImg {
+  height: 200px;
+  width: 200px;
+  padding: 30px;
+}
+
+.modalcolor {
+  background-color: lightgray;
+}
+
+.body_text {
+  color: #423a3a !important;
+}
+
+.modalbtn {
+  background-color: #ff9800 !important;
+}
+
+.langugeDropdown {
+  width: 115px;
+  position: fixed;
+  bottom: 0;
+  left: 40px;
+}
+
+.langugeDropdown .dropdown-toggle {
+  background-color: #000;
+  padding: 9px 15px;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.langugeDropdown .dropdown-toggle:after {
+  display: none;
+}
+
+.langugeDropdown .dropdown-menu {
+  min-width: 115px;
+  left: -5px;
+  padding: 0;
+  border: 0;
+}
+
+.langugeDropdown .dropdown-menu li a {
+  background-color: #498cce;
+  width: 100%;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 9px 15px;
+}
+
+.langugeDropdown .dropdown-menu li:first-child a {
+  border-radius: 10px 10px 0 0;
+}
+
+.langugeDropdown .dropdown-menu li a:hover,
+.langugeDropdown .dropdown-menu li a.active {
+  background-color: #7db6ef;
+}
+
+.langugeDropdown.open .dropdown-toggle,
+.langugeDropdown.show .dropdown-toggle {
+  border-radius: 0;
+}
+
+.langugeDropdown.open .dropdown-menu {
+  position: absolute;
+  transform: translate3d(0px, -85px, 0px);
+  top: 0px;
+  left: 0px;
+  will-change: transform;
+  display: block;
+}
+
+/* dark mode button styles */
+body {
+  transition: background-color 0.5s ease;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
